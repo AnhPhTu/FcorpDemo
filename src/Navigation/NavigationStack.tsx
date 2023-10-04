@@ -9,15 +9,15 @@ export const Stack = createNativeStackNavigator();
 
 const StackNavigator = () => (
   <Stack.Navigator screenOptions={{headerShown: false}}>
-    <Stack.Screen name={Routes.Main} component={Screens.Intro} />
-    <Stack.Screen name={Routes.Product} component={Screens.Congration} />
+    <Stack.Screen name={Routes.Main} component={Screens.Main} />
+    <Stack.Screen name={Routes.Product} component={Screens.ProductList} />
   </Stack.Navigator>
 );
 
 export const Navigator = () => {
   return (
     <NavigationContainer ref={navigationRef}>
-     <StackNavigator />
+      <StackNavigator />
     </NavigationContainer>
   );
 };
