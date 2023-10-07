@@ -54,5 +54,5 @@
   "exclude": [
     "node_modules", "babel.config.js", "metro.config.js", "jest.config.js"
   ],
-  "include": ["src", "src/types/custom.d.ts"]
+  "include": ["src"]
 }

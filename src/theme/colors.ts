@@ -81,6 +81,7 @@ export interface IColors {
     colorFA: string;
     colorDE: string;
     color74: string;
+    color30: string;
     color75: string;
     color2C: string;
     colorHeld: string;
@@ -177,6 +178,7 @@ export interface IColors {
     colorDE: '#DEE2E6',
     color74: '#747474',
     color75: '#757575',
+    color30: '#303030',
     color2C: '#2C3A4B',
     colorHeld: '#89939E',
     colorHeldBlue: '#BCFEFE',

@@ -4,4 +4,5 @@
 export const Routes: {[key: string]: string} = {
   Main: 'Main',
   Product: 'Product',
+  ProductDetails: 'ProductDetails',
 };

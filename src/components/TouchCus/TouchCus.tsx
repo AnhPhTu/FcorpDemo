@@ -14,6 +14,7 @@ export interface ITextInputs {
   style?: any;
   children: ReactNode;
   onPress: () => void;
+  onLongPress?: () => void;
   activeOpacity?: number;
   hitSlop?: any;
 }

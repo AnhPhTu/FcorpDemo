@@ -13,13 +13,11 @@ export interface IParamSaga {
 /*============================================*/
 function* getDataRequest(action: IParamSaga) {
   try {
-    console.log("THIS IS RESS action", action);
     const rs: IResponse = yield axiosClient.get(
       GETWAY
     );
-    console.log("THIS IS RESS", rs, action)
-    yield put({type: AppTypes.GET_DATA_SUCCESS});
     action.callback?.(rs);
+    yield put({type: AppTypes.GET_DATA_SUCCESS});
   } catch (error) {
     yield put({type: AppTypes.GET_DATA_FAILURE});
   }

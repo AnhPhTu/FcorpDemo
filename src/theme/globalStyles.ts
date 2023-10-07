@@ -347,6 +347,9 @@ export default StyleSheet.create({
     paddingVertical: 8,
   },
   //radius
+  borderRnone: {
+    borderRadius: 0,
+  },
   borderR8: {
     borderRadius: 8,
   },
@@ -393,16 +396,16 @@ export default StyleSheet.create({
   //card common
   cardCommon: {
     shadowColor: Colors.dark,
-    shadowOpacity: 0.2,
+    shadowOpacity: 0.1,
     shadowOffset: {
       width: 0,
       height: 0,
     },
-    shadowRadius: 4,
+    shadowRadius: 1,
     width: width - 50,
     borderColor: Platform.OS === 'android' ? Colors.whisper : '',
     borderWidth: Platform.OS === 'android' ? 1 : 0,
-    elevation: 2,
+    elevation: 1,
   },
 
   // display

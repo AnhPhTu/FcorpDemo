@@ -8,7 +8,6 @@ import {PersistGate} from 'redux-persist/integration/react';
 import { configStore } from 'store/createStore';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 const {persistor, store} = configStore();
-
 const theme = {
   ...DefaultTheme,
   colors: {

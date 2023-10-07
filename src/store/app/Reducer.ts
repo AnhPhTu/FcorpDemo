@@ -35,7 +35,7 @@ const GetDataSuccess = (state = INITIAL_STATE, {payload}: any) => {
     ...state,
     error: null,
     loading: false,
-    data: payload.data
+    data: payload
   };
 };
 

@@ -18,3 +18,16 @@ export interface IHeader {
     colorTitle?: any;
     colorLeftIcon?: any;
   }
+
+export interface IBottomSheetProps {
+  backgroundStyle: any;
+  children: ReactNode;
+  snapPoints?: any;
+  isBackDrop?: boolean;
+  renderBackdrop?: any;
+  style?: any;
+  styleContent?: any;
+  handleSheetChanges?: () => void;
+  backgroundComponent?: any;
+  type?: string;
+}
