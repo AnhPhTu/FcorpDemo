@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import { MD2Colors} from 'react-native-paper';
+import {MD2Colors} from 'react-native-paper';
 import {FontWeight, Typography} from 'theme/typography';
 
 export default StyleSheet.create({

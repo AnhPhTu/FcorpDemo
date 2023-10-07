@@ -1,7 +1,6 @@
 import axios from 'axios';
 import {BASE_URI} from 'utils/constants';
 
-
 /** define an axios instance config */
 const config = {
   baseURL: BASE_URI,
@@ -39,7 +38,6 @@ axiosClient.interceptors.request.use(
   },
   (err: any) => Promise.reject(err),
 );
-
 
 // let countCode401 = 0;
 axiosClient.interceptors.response.use(

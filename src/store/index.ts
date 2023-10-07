@@ -1,22 +1,16 @@
 import {AnyAction, CombinedState, combineReducers} from 'redux';
-import {
-  IAppState,
-
-} from 'types';
+import {IAppState} from 'types';
 import {app, AppTypes} from './app';
-
 
 const appReducer = combineReducers({
   app,
-  
 });
 
-export default function (
+export default function(
   state:
     | CombinedState<{
         app: IAppState;
         // state: IRequestState;
-
       }>
     | undefined,
   action: AnyAction,

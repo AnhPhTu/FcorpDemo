@@ -1,4 +1,4 @@
-import { SvgIcon } from 'assets';
+import {SvgIcon} from 'assets';
 import {TouchCus} from 'components/TouchCus';
 import {NavigationService} from 'navigation';
 import React, {useEffect} from 'react';
@@ -40,20 +40,23 @@ export function Header(props: IHeader) {
           styles.pv12,
           globalStyles.cenHItem,
           style,
-        ]}>
+        ]}
+      >
         {renderLeft && (
           <View style={styles.mr16}>
             <TouchCus
               onPress={() =>
                 onPressLeft ? onPressLeft() : NavigationService.goBack()
-              }>
+              }
+            >
               {
                 <View
                   style={[
                     {height: 40, width: 40, right: 10},
                     globalStyles.cenVItem,
                     globalStyles.cenHItem,
-                  ]}>
+                  ]}
+                >
                   <SvgIcon.ArrowLeft color={colorLeftIcon} />
                 </View>
               }
@@ -69,7 +72,8 @@ export function Header(props: IHeader) {
               globalStyles.lh36,
               globalStyles.fw600,
               globalStyles.fontRoboto,
-            ]}>
+            ]}
+          >
             {title}
           </Title>
           {subTitle && <Subheading>{subTitle}</Subheading>}
@@ -77,12 +81,14 @@ export function Header(props: IHeader) {
         <View style={styles.right}>
           <TouchableOpacity
             style={[styles.contentRightSecond, styleRightSecond]}
-            onPress={onPressRightSecond}>
+            onPress={onPressRightSecond}
+          >
             {renderRightSecond && renderRightSecond()}
           </TouchableOpacity>
           <TouchableOpacity
             style={[styles.contentRight, styleRight]}
-            onPress={onPressRight}>
+            onPress={onPressRight}
+          >
             {renderRight && renderRight()}
           </TouchableOpacity>
         </View>

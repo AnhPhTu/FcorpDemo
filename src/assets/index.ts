@@ -1,6 +1,3 @@
-import  SvgIcon  from './IconSvg';
+import SvgIcon from './IconSvg';
 
-
-export {
-    SvgIcon
-};
+export {SvgIcon};

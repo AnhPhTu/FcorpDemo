@@ -1,5 +1,5 @@
 export interface IAppState {
-    loading: boolean;
-    error: string | null;
-    data: any[]
-  }
+  loading: boolean;
+  error: string | null;
+  data: any[];
+}

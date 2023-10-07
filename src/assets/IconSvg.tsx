@@ -5,8 +5,8 @@ const SvgIcon = {
   ...Anchor,
   ...Tabbar,
   ...Icon,
-//   ...AnotherSvg,
-//   ...Other,
+  //   ...AnotherSvg,
+  //   ...Other,
 };
 
 export default SvgIcon;

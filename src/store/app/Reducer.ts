@@ -8,7 +8,7 @@ import {AppTypes} from './Actions';
 const INITIAL_STATE: IAppState = {
   loading: false,
   error: null,
-  data : []
+  data: [],
 };
 
 /**
@@ -22,8 +22,6 @@ const GetDataRequest = (state: IAppState) => ({
   loading: true,
 });
 
-
-
 /**
  * @description handle update data store when get data Successfully
  * @param {IAppState} state - current state data of app reducer
@@ -35,7 +33,7 @@ const GetDataSuccess = (state = INITIAL_STATE, {payload}: any) => {
     ...state,
     error: null,
     loading: false,
-    data: payload
+    data: payload,
   };
 };
 

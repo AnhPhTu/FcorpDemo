@@ -1,23 +1,23 @@
 import {ReactNode} from 'react';
 
 export interface IHeader {
-    style?: any;
-    styleLeft?: any;
-    styleCenter?: any;
-    styleRight?: any;
-    styleRightSecond?: any;
-    renderLeft?: boolean;
-    renderRight?: () => ReactNode;
-    renderRightSecond?: () => ReactNode;
-    onPressRightSecond?: () => void;
-    onPressLeft?: () => void;
-    onPressRight?: () => void;
-    title?: string;
-    subTitle?: string;
-    barStyle?: string;
-    colorTitle?: any;
-    colorLeftIcon?: any;
-  }
+  style?: any;
+  styleLeft?: any;
+  styleCenter?: any;
+  styleRight?: any;
+  styleRightSecond?: any;
+  renderLeft?: boolean;
+  renderRight?: () => ReactNode;
+  renderRightSecond?: () => ReactNode;
+  onPressRightSecond?: () => void;
+  onPressLeft?: () => void;
+  onPressRight?: () => void;
+  title?: string;
+  subTitle?: string;
+  barStyle?: string;
+  colorTitle?: any;
+  colorLeftIcon?: any;
+}
 
 export interface IBottomSheetProps {
   backgroundStyle: any;

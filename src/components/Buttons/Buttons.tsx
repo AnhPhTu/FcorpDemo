@@ -30,7 +30,8 @@ export function Buttons(props: IButtons) {
         round && styles.round,
         style,
       ]}
-      activeOpacity={0.9}>
+      activeOpacity={0.9}
+    >
       {icon ? icon : null}
       {children || 'Button'}
       {loading ? (

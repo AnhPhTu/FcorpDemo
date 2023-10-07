@@ -5,7 +5,7 @@ import {DefaultTheme, Provider as PaperProvider} from 'react-native-paper';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import {Provider} from 'react-redux';
 import {PersistGate} from 'redux-persist/integration/react';
-import { configStore } from 'store/createStore';
+import {configStore} from 'store/createStore';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 const {persistor, store} = configStore();
 const theme = {
@@ -20,18 +20,18 @@ const theme = {
 const App = () => {
   return (
     <SafeAreaProvider>
-        <SafeAreaStatusBar backgroundColor="transparent" />
-        <Provider store={store}>
-            <PaperProvider theme={theme}>
-                <Suspense fallback={null}>
-                <PersistGate loading={null} persistor={persistor}>
-                    <GestureHandlerRootView style={{flex: 1}}>
-                    <Navigator />
-                    </GestureHandlerRootView>
-                </PersistGate>
-                </Suspense>
-            </PaperProvider>
-        </Provider>
+      <SafeAreaStatusBar backgroundColor="transparent" />
+      <Provider store={store}>
+        <PaperProvider theme={theme}>
+          <Suspense fallback={null}>
+            <PersistGate loading={null} persistor={persistor}>
+              <GestureHandlerRootView style={{flex: 1}}>
+                <Navigator />
+              </GestureHandlerRootView>
+            </PersistGate>
+          </Suspense>
+        </PaperProvider>
+      </Provider>
     </SafeAreaProvider>
   );
 };

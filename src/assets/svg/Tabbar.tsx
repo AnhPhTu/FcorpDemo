@@ -18,7 +18,8 @@ const Tabbar = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -44,7 +45,8 @@ const Tabbar = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -71,7 +73,8 @@ const Tabbar = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Rect x={x} y={y} width="40" height="40" rx={rx} fill={color} />
       <Path
         d="M18.463 30.6857V22.5376H10.3148C9.77458 22.5376 9.25645 22.323 8.87443 21.9409C8.49241 21.5589 8.2778 21.0408 8.2778 20.5005C8.2778 19.9603 8.49241 19.4422 8.87443 19.0601C9.25645 18.6781 9.77458 18.4635 10.3148 18.4635H18.463V10.3154C18.463 9.7751 18.6776 9.25697 19.0596 8.87496C19.4416 8.49294 19.9598 8.27832 20.5 8.27832C21.0403 8.27832 21.5584 8.49294 21.9404 8.87496C22.3224 9.25697 22.5371 9.7751 22.5371 10.3154V18.4635H30.6852C31.2255 18.4635 31.7436 18.6781 32.1256 19.0601C32.5076 19.4422 32.7222 19.9603 32.7222 20.5005C32.7222 21.0408 32.5076 21.5589 32.1256 21.9409C31.7436 22.323 31.2255 22.5376 30.6852 22.5376H22.5371V30.6857C22.5371 31.226 22.3224 31.7441 21.9404 32.1261C21.5584 32.5082 21.0403 32.7228 20.5 32.7228C19.9598 32.7228 19.4416 32.5082 19.0596 32.1261C18.6776 31.7441 18.463 31.226 18.463 30.6857Z"
@@ -94,7 +97,8 @@ const Tabbar = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -122,7 +126,8 @@ const Tabbar = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}

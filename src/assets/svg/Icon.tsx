@@ -20,7 +20,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -50,7 +51,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -80,7 +82,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -110,7 +113,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -140,7 +144,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -166,7 +171,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Rect
         x="0.5"
         y="0.923828"
@@ -199,7 +205,8 @@ const Icon = {
       viewBox={viewBox}
       fill={fill}
       xmlns={xmlns}
-      {...rest}>
+      {...rest}
+    >
       <Rect
         x="0.5"
         y="0.923828"
@@ -230,7 +237,8 @@ const Icon = {
       viewBox={viewBox}
       fill={fill}
       xmlns={xmlns}
-      {...rest}>
+      {...rest}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -261,7 +269,8 @@ const Icon = {
       viewBox={viewBox}
       fill={fill}
       xmlns={xmlns}
-      {...rest}>
+      {...rest}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -292,7 +301,8 @@ const Icon = {
       viewBox={viewBox}
       fill={fill}
       xmlns={xmlns}
-      {...rest}>
+      {...rest}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -323,7 +333,8 @@ const Icon = {
       viewBox={viewBox}
       fill={fill}
       xmlns={xmlns}
-      {...rest}>
+      {...rest}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -354,7 +365,8 @@ const Icon = {
       viewBox={viewBox}
       fill={fill}
       xmlns={xmlns}
-      {...rest}>
+      {...rest}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -384,7 +396,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -414,7 +427,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -444,7 +458,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -474,7 +489,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -504,7 +520,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -534,7 +551,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -564,7 +582,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -594,7 +613,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -619,7 +639,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Circle cx="10" cy="10" r="9.5" stroke={color} />
     </Svg>
   ),
@@ -637,7 +658,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Circle cx="10" cy="10" r="10" fill={color} />
       <Circle cx="10" cy="10" r="6" fill={whiteColor} />
     </Svg>
@@ -655,7 +677,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Circle
         cx="9.80687"
         cy="9.80492"
@@ -687,7 +710,8 @@ const Icon = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         d="M21.9999 12.0008L29.5 21.0918L14.4999 21.0918L21.9999 12.0008Z"
         fill={color}

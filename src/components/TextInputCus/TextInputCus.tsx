@@ -10,7 +10,7 @@ export function TextInputCus(props: ITextInputs) {
     <View style={[BaseStyle.textInput, style]}>
       <TextInput
         {...props}
-        ref = {props?.refInput ? props?.refInput : null}
+        ref={props?.refInput ? props?.refInput : null}
         style={[styles.txt, {fontFamily: DefaultFont}, textStyle]}
         selectionColor={success ? Colors.border : Colors.white}
         placeholderTextColor={success ? Colors.border : Colors.white}
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
   },
 });
 export interface ITextInputs {
-  refInput? :any;
+  refInput?: any;
   style?: any;
   success?: boolean;
   editable?: boolean;

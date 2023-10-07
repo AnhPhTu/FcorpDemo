@@ -1,6 +1,6 @@
 import {Platform, StyleSheet} from 'react-native';
 import {Colors} from 'theme';
-import {height,heightHeader,width} from 'utils/libs';
+import {height, heightHeader, width} from 'utils/libs';
 
 export default StyleSheet.create({
   container: {

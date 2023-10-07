@@ -20,7 +20,8 @@ const Anchor = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -59,7 +60,8 @@ const Anchor = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -89,7 +91,8 @@ const Anchor = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -115,7 +118,8 @@ const Anchor = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Rect width={width} height={height} rx={rx} fill={color} />
     </Svg>
   ),
@@ -133,7 +137,8 @@ const Anchor = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Rect width={width} height={height} rx={rx} fill={color} />
     </Svg>
   ),
@@ -155,7 +160,8 @@ const Anchor = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}
@@ -185,7 +191,8 @@ const Anchor = {
       height={height}
       viewBox={viewBox}
       fill={fill}
-      xmlns={xmlns}>
+      xmlns={xmlns}
+    >
       <Path
         fill-rule={fillrule}
         clip-rule={cliprule}

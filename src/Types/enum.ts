@@ -1,4 +1,4 @@
 export enum EnumView {
-    S = 'scrollview',
-    V = 'view',
-  }
+  S = 'scrollview',
+  V = 'view',
+}
